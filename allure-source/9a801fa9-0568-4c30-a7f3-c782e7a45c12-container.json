@@ -1,0 +1,47 @@
+{
+	"uuid": "c8b80838-dd9c-4820-ae1a-ce964acb7143",
+	"name": "Контекст_01. Заполнение и проведение документа \"Табель\"",
+	"description": "",
+	"children": [
+		"9a801fa9-0568-4c30-a7f3-c782e7a45c12"
+	],
+	"befores": [
+		{
+			"name": "И Я подключаю клиент тестирования \"Нач. отд. расчетов по оплате труда\" из таблицы клиентов тестирования",
+			"start": 1711261790066,
+			"stop": 1711261790736,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Нач. отд. расчетов по оплате труда"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1711261791048,
+			"stop": 1711261791164,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

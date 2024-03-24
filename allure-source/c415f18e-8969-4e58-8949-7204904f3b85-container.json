@@ -1,0 +1,47 @@
+{
+	"uuid": "bc4b3dcc-6a35-4c5e-b0af-6e55170a3796",
+	"name": "Контекст_04. Удаление всех документов для возврата системы в начальное состояние",
+	"description": "",
+	"children": [
+		"c415f18e-8969-4e58-8949-7204904f3b85"
+	],
+	"befores": [
+		{
+			"name": "И Я подключаю клиент тестирования \"Нач. отд. расчетов по оплате труда\" из таблицы клиентов тестирования",
+			"start": 1711261826615,
+			"stop": 1711261827294,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Нач. отд. расчетов по оплате труда"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1711261827559,
+			"stop": 1711261827749,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

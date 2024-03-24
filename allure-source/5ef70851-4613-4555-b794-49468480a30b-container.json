@@ -1,0 +1,47 @@
+{
+	"uuid": "11b39aea-266e-4d51-9b30-0e0e4138b297",
+	"name": "Контекст_02. Заполнение и проведение документа \"Начисление зарплаты и взносов\"",
+	"description": "",
+	"children": [
+		"5ef70851-4613-4555-b794-49468480a30b"
+	],
+	"befores": [
+		{
+			"name": "И Я подключаю клиент тестирования \"Нач. отд. расчетов по оплате труда\" из таблицы клиентов тестирования",
+			"start": 1711261797309,
+			"stop": 1711261797978,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Нач. отд. расчетов по оплате труда"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1711261798239,
+			"stop": 1711261798453,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

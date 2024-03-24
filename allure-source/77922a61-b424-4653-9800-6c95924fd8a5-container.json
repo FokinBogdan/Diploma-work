@@ -1,0 +1,47 @@
+{
+	"uuid": "bf3d6f4a-fe70-4b10-b4e3-fcea9c944c2e",
+	"name": "Контекст_05. Закрытие клиента тестирования",
+	"description": "",
+	"children": [
+		"77922a61-b424-4653-9800-6c95924fd8a5"
+	],
+	"befores": [
+		{
+			"name": "И Я подключаю клиент тестирования \"Нач. отд. расчетов по оплате труда\" из таблицы клиентов тестирования",
+			"start": 1711261835844,
+			"stop": 1711261836243,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Нач. отд. расчетов по оплате труда"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1711261836473,
+			"stop": 1711261836597,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

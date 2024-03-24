@@ -1,0 +1,692 @@
+{
+	"uuid": "3289068f-4b61-44f1-b5a3-b8984d491019",
+	"historyId": "01 Работа с разделом \"Зарплата\".03. Заполнение и проведение документа \"Отражение зарплаты в бухучете\"",
+	"name": "03. Заполнение и проведение документа \"Отражение зарплаты в бухучете\"",
+	"fullName": "tests/01 работа с разделом зарплата.feature_03. заполнение и проведение документа \"отражение зарплаты в бухучете\"",
+	"testCaseId": "e52ad0e00fc8d55ec8fedbd457d6c6e4",
+	"start": 1711261819399,
+	"stop": 1711261826057,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "* Заполнение документа",
+			"start": 1711261820709,
+			"stop": 1711261825032,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И В командном интерфейсе я выбираю 'Зарплата' 'Отражение зарплаты в бухучете'",
+					"start": 1711261820709,
+					"stop": 1711261820747,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Зарплата"
+						},
+						{
+							"name": "Парам2",
+							"value": "Отражение зарплаты в бухучете"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда открылось окно 'Отражение зарплаты в бухучете'",
+					"start": 1711261820750,
+					"stop": 1711261820922,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Отражение зарплаты в бухучете"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ФормаСоздать'",
+					"start": 1711261820926,
+					"stop": 1711261820935,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ФормаСоздать"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда открылось окно 'Отражение зарплаты в бухучете (создание)'",
+					"start": 1711261820938,
+					"stop": 1711261821565,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Отражение зарплаты в бухучете (создание)"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем \"ПериодРегистрации\" я увеличиваю значение",
+					"start": 1711261821567,
+					"stop": 1711261821573,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПериодРегистрации"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"Организация\" я выбираю точное значение 'Крон-Ц'",
+					"start": 1711261821577,
+					"stop": 1711261821625,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Организация"
+						},
+						{
+							"name": "Парам2",
+							"value": "Крон-Ц"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'Заполнить'",
+					"start": 1711261821629,
+					"stop": 1711261821807,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Заполнить"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'Заполнить'",
+					"start": 1711261821810,
+					"stop": 1711261822734,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Заполнить"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я жду, что в таблице \"НачисленнаяЗарплатаИВзносы\" количество строк будет \"больше\" 0 в течение 30 секунд",
+					"start": 1711261822737,
+					"stop": 1711261823798,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "НачисленнаяЗарплатаИВзносы"
+						},
+						{
+							"name": "Парам2",
+							"value": "больше"
+						},
+						{
+							"name": "Парам3",
+							"value": 0
+						},
+						{
+							"name": "Парам4",
+							"value": 30
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'Комментарий' я ввожу текст 'VA-тестирование'",
+					"start": 1711261823894,
+					"stop": 1711261823915,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Комментарий"
+						},
+						{
+							"name": "Парам2",
+							"value": "VA-тестирование"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ПровестиИЗакрыть'",
+					"start": 1711261823919,
+					"stop": 1711261823928,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПровестиИЗакрыть"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я жду закрытия окна 'Отражение зарплаты в бухучете (создание) *' в течение 20 секунд",
+					"start": 1711261823933,
+					"stop": 1711261825032,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Отражение зарплаты в бухучете (создание) *"
+						},
+						{
+							"name": "Парам2",
+							"value": 20
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "* Проверка заполнения данных",
+			"start": 1711261825035,
+			"stop": 1711261826056,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "Когда открылось окно 'Отражение зарплаты в бухучете'",
+					"start": 1711261825035,
+					"stop": 1711261825093,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Отражение зарплаты в бухучете"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ФормаНайти'",
+					"start": 1711261825096,
+					"stop": 1711261825103,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ФормаНайти"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда открылось окно 'Найти'",
+					"start": 1711261825107,
+					"stop": 1711261825144,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Найти"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"FieldSelector\" я выбираю точное значение 'Комментарий'",
+					"start": 1711261825147,
+					"stop": 1711261825172,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "FieldSelector"
+						},
+						{
+							"name": "Парам2",
+							"value": "Комментарий"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'Pattern' я ввожу текст 'VA-тестирование'",
+					"start": 1711261825175,
+					"stop": 1711261825197,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Pattern"
+						},
+						{
+							"name": "Парам2",
+							"value": "VA-тестирование"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я меняю значение переключателя с именем 'CompareType' на 'По точному совпадению'",
+					"start": 1711261825200,
+					"stop": 1711261825214,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "CompareType"
+						},
+						{
+							"name": "Парам2",
+							"value": "По точному совпадению"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'Find'",
+					"start": 1711261825216,
+					"stop": 1711261825229,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Find"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда открылось окно 'Отражение зарплаты в бухучете'",
+					"start": 1711261825231,
+					"stop": 1711261825338,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Отражение зарплаты в бухучете"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Список\" я выбираю текущую строку",
+					"start": 1711261825342,
+					"stop": 1711261825350,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Список"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И элемент формы с именем \"Организация\" стал равен 'Крон-Ц'",
+					"start": 1711261825352,
+					"stop": 1711261825730,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Организация"
+						},
+						{
+							"name": "Парам2",
+							"value": "Крон-Ц"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И элемент формы с именем \"Подразделение\" стал равен ''",
+					"start": 1711261825733,
+					"stop": 1711261825741,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Подразделение"
+						},
+						{
+							"name": "Парам2",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И элемент формы с именем \"Комментарий\" стал равен 'VA-тестирование'",
+					"start": 1711261825745,
+					"stop": 1711261825757,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Комментарий"
+						},
+						{
+							"name": "Парам2",
+							"value": "VA-тестирование"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И элемент формы с именем \"Ответственный\" стал равен 'Орлова Е.Н. (Нач. отд. расчетов по оплате труда)'",
+					"start": 1711261825760,
+					"stop": 1711261825772,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Ответственный"
+						},
+						{
+							"name": "Парам2",
+							"value": "Орлова Е.Н. (Нач. отд. расчетов по оплате труда)"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю сочетание клавиш \"Shift+Esc\"",
+					"start": 1711261825773,
+					"stop": 1711261825928,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Shift+Esc"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда открылось окно 'Отражение зарплаты в бухучете'",
+					"start": 1711261826044,
+					"stop": 1711261826048,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Отражение зарплаты в бухучете"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И Я закрываю окно 'Отражение зарплаты в бухучете'",
+					"start": 1711261826052,
+					"stop": 1711261826056,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Отражение зарплаты в бухучете"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "03. Заполнение и проведение документа \"Отражение зарплаты в бухучете\""
+		},
+		{
+			"name": "epic",
+			"value": "01 Работа с разделом \"Зарплата\""
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "tests"
+		},
+		{
+			"name": "host",
+			"value": "DESKTOP-N8DAO9B"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

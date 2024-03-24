@@ -1,0 +1,47 @@
+{
+	"uuid": "db1ebc9f-ecb4-4324-9b74-928ca96cf651",
+	"name": "Контекст_03. Заполнение и проведение документа \"Отражение зарплаты в бухучете\"",
+	"description": "",
+	"children": [
+		"3289068f-4b61-44f1-b5a3-b8984d491019"
+	],
+	"befores": [
+		{
+			"name": "И Я подключаю клиент тестирования \"Нач. отд. расчетов по оплате труда\" из таблицы клиентов тестирования",
+			"start": 1711261819427,
+			"stop": 1711261820097,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Нач. отд. расчетов по оплате труда"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1711261820393,
+			"stop": 1711261820609,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

@@ -1,0 +1,672 @@
+{
+	"uuid": "5ef70851-4613-4555-b794-49468480a30b",
+	"historyId": "01 Работа с разделом \"Зарплата\".02. Заполнение и проведение документа \"Начисление зарплаты и взносов\"",
+	"name": "02. Заполнение и проведение документа \"Начисление зарплаты и взносов\"",
+	"fullName": "tests/01 работа с разделом зарплата.feature_02. заполнение и проведение документа \"начисление зарплаты и взносов\"",
+	"testCaseId": "b3998094f680a84275549815a257c3f7",
+	"start": 1711261797292,
+	"stop": 1711261818856,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "* Заполнение документа",
+			"start": 1711261798559,
+			"stop": 1711261816054,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И В командном интерфейсе я выбираю 'Зарплата' 'Начисление зарплаты и взносов'",
+					"start": 1711261798559,
+					"stop": 1711261798595,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Зарплата"
+						},
+						{
+							"name": "Парам2",
+							"value": "Начисление зарплаты и взносов"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда открылось окно 'Начисление зарплаты и взносов'",
+					"start": 1711261798598,
+					"stop": 1711261799048,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Начисление зарплаты и взносов"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'СоздатьДокумент'",
+					"start": 1711261799052,
+					"stop": 1711261799061,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "СоздатьДокумент"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда открылось окно 'Начисление зарплаты и взносов (создание)'",
+					"start": 1711261799065,
+					"stop": 1711261801383,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Начисление зарплаты и взносов (создание)"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"Организация\" я выбираю точное значение 'Крон-Ц'",
+					"start": 1711261801386,
+					"stop": 1711261801425,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Организация"
+						},
+						{
+							"name": "Парам2",
+							"value": "Крон-Ц"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'Заполнить'",
+					"start": 1711261801428,
+					"stop": 1711261801903,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Заполнить"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я жду, что в таблице \"Начисления\" количество строк будет \"больше\" 0 в течение 60 секунд",
+					"start": 1711261801906,
+					"stop": 1711261810068,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Начисления"
+						},
+						{
+							"name": "Парам2",
+							"value": "больше"
+						},
+						{
+							"name": "Парам3",
+							"value": 0
+						},
+						{
+							"name": "Парам4",
+							"value": 60
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Когда открылось окно 'Начисление зарплаты и взносов (создание) *'",
+					"start": 1711261810178,
+					"stop": 1711261810184,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Начисление зарплаты и взносов (создание) *"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'Комментарий' я ввожу текст 'VA-тестирование'",
+					"start": 1711261810187,
+					"stop": 1711261810334,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Комментарий"
+						},
+						{
+							"name": "Парам2",
+							"value": "VA-тестирование"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ПровестиИЗакрыть'",
+					"start": 1711261810339,
+					"stop": 1711261810352,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПровестиИЗакрыть"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я жду закрытия окна 'Начисление зарплаты и взносов (создание) *' в течение 20 секунд",
+					"start": 1711261810355,
+					"stop": 1711261816054,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Начисление зарплаты и взносов (создание) *"
+						},
+						{
+							"name": "Парам2",
+							"value": 20
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "* Проверка заполнения данных",
+			"start": 1711261816162,
+			"stop": 1711261818853,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "Когда открылось окно 'Начисление зарплаты и взносов'",
+					"start": 1711261816162,
+					"stop": 1711261816166,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Начисление зарплаты и взносов"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ФормаНайти'",
+					"start": 1711261816169,
+					"stop": 1711261816176,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ФормаНайти"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда открылось окно 'Найти'",
+					"start": 1711261816179,
+					"stop": 1711261816215,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Найти"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"FieldSelector\" я выбираю точное значение 'Комментарий'",
+					"start": 1711261816218,
+					"stop": 1711261816245,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "FieldSelector"
+						},
+						{
+							"name": "Парам2",
+							"value": "Комментарий"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'Pattern' я ввожу текст 'VA-тестирование'",
+					"start": 1711261816249,
+					"stop": 1711261816269,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Pattern"
+						},
+						{
+							"name": "Парам2",
+							"value": "VA-тестирование"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я меняю значение переключателя с именем 'CompareType' на 'По точному совпадению'",
+					"start": 1711261816272,
+					"stop": 1711261816287,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "CompareType"
+						},
+						{
+							"name": "Парам2",
+							"value": "По точному совпадению"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'Find'",
+					"start": 1711261816290,
+					"stop": 1711261816302,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Find"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда открылось окно 'Начисление зарплаты и взносов'",
+					"start": 1711261816306,
+					"stop": 1711261816416,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Начисление зарплаты и взносов"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Список\" я выбираю текущую строку",
+					"start": 1711261816419,
+					"stop": 1711261816429,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Список"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И элемент формы с именем \"Организация\" стал равен 'Крон-Ц'",
+					"start": 1711261816433,
+					"stop": 1711261818168,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Организация"
+						},
+						{
+							"name": "Парам2",
+							"value": "Крон-Ц"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И элемент формы с именем \"ПодразделениеОрганизации\" стал равен ''",
+					"start": 1711261818171,
+					"stop": 1711261818182,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПодразделениеОрганизации"
+						},
+						{
+							"name": "Парам2",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И элемент формы с именем \"Комментарий\" стал равен 'VA-тестирование'",
+					"start": 1711261818184,
+					"stop": 1711261818417,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Комментарий"
+						},
+						{
+							"name": "Парам2",
+							"value": "VA-тестирование"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И элемент формы с именем \"Ответственный\" стал равен 'Орлова Е.Н. (Нач. отд. расчетов по оплате труда)'",
+					"start": 1711261818420,
+					"stop": 1711261818561,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Ответственный"
+						},
+						{
+							"name": "Парам2",
+							"value": "Орлова Е.Н. (Нач. отд. расчетов по оплате труда)"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю сочетание клавиш \"Shift+Esc\"",
+					"start": 1711261818564,
+					"stop": 1711261818729,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Shift+Esc"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда открылось окно 'Начисление зарплаты и взносов'",
+					"start": 1711261818844,
+					"stop": 1711261818848,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Начисление зарплаты и взносов"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И Я закрываю окно 'Начисление зарплаты и взносов'",
+					"start": 1711261818850,
+					"stop": 1711261818853,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Начисление зарплаты и взносов"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "02. Заполнение и проведение документа \"Начисление зарплаты и взносов\""
+		},
+		{
+			"name": "epic",
+			"value": "01 Работа с разделом \"Зарплата\""
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "tests"
+		},
+		{
+			"name": "host",
+			"value": "DESKTOP-N8DAO9B"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

@@ -1,0 +1,79 @@
+{
+	"uuid": "77922a61-b424-4653-9800-6c95924fd8a5",
+	"historyId": "01 Работа с разделом \"Зарплата\".05. Закрытие клиента тестирования",
+	"name": "05. Закрытие клиента тестирования",
+	"fullName": "tests/01 работа с разделом зарплата.feature_05. закрытие клиента тестирования",
+	"testCaseId": "bbd5f7aa6090dc9a18fa082527188aa9",
+	"start": 1711261835836,
+	"stop": 1711261836770,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И я закрываю главное окно TestClient",
+			"start": 1711261836717,
+			"stop": 1711261836719,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Button0'",
+			"start": 1711261836721,
+			"stop": 1711261836767,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Button0"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "05. Закрытие клиента тестирования"
+		},
+		{
+			"name": "epic",
+			"value": "01 Работа с разделом \"Зарплата\""
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "tests"
+		},
+		{
+			"name": "host",
+			"value": "DESKTOP-N8DAO9B"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}
