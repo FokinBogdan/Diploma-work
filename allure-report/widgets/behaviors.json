@@ -1,1 +1,1 @@
-{"total":1,"items":[{"uid":"34177952849a81a418c6deaecbcb3954","name":"01 Работа с разделом \"Зарплата\"","statistic":{"failed":0,"broken":0,"skipped":0,"passed":5,"unknown":0,"total":5}}]}
+{"total":1,"items":[{"uid":"4a448084003780de9d4eeac9d0f165c1","name":"Дымовые тесты - Справочники - ФормаСписка","statistic":{"failed":3,"broken":0,"skipped":0,"passed":255,"unknown":0,"total":258}}]}

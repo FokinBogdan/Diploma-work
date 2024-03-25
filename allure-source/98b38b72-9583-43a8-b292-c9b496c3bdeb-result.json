@@ -1,0 +1,1001 @@
+{
+	"uuid": "98b38b72-9583-43a8-b292-c9b496c3bdeb",
+	"historyId": "Автоинструкция \"Создание сотрудника\".01. Создание сотрудника",
+	"name": "01. Создание сотрудника",
+	"fullName": "tests/аи создание сотрудника.feature_01. создание сотрудника",
+	"testCaseId": "de132f4fa2df694e6890820d3bc0d55f",
+	"start": 1711359246943,
+	"stop": 1711359280378,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "broken",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "* Создание",
+			"start": 1711359248311,
+			"stop": 1711359280377,
+			"status": "broken",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И видеовставка \"Создание нового сотрудника\" \"Инструкция по созданию нового сотрудника\"",
+					"start": 1711359248311,
+					"stop": 1711359248311,
+					"status": "broken",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Создание нового сотрудника"
+						},
+						{
+							"name": "Парам2",
+							"value": "Инструкция по созданию нового сотрудника"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И видеовставка \"Создание нового сотрудника\" \"Инструкция по созданию нового сотрудника\"",
+					"start": 1711359249469,
+					"stop": 1711359249491,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Создание нового сотрудника"
+						},
+						{
+							"name": "Парам2",
+							"value": "Инструкция по созданию нового сотрудника"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И В командном интерфейсе я выбираю 'Кадры' 'Сотрудники'",
+					"start": 1711359249495,
+					"stop": 1711359250835,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Кадры"
+						},
+						{
+							"name": "Парам2",
+							"value": "Сотрудники"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда открылось окно 'Сотрудники'",
+					"start": 1711359250845,
+					"stop": 1711359251700,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Сотрудники"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Нажмём кнопку Создать",
+					"start": 1711359251705,
+					"stop": 1711359251705,
+					"status": "broken",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Нажмём кнопку Создать",
+					"start": 1711359251926,
+					"stop": 1711359251926,
+					"status": "broken",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Нажмём кнопку Создать",
+					"start": 1711359253004,
+					"stop": 1711359253157,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'Создать'",
+					"start": 1711359253264,
+					"stop": 1711359253929,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Создать"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда открылось окно 'Сотрудник (создание)'",
+					"start": 1711359253932,
+					"stop": 1711359254380,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Сотрудник (создание)"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Теперь укажем организацию",
+					"start": 1711359254383,
+					"stop": 1711359254383,
+					"status": "broken",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Теперь укажем организацию",
+					"start": 1711359254600,
+					"stop": 1711359254600,
+					"status": "broken",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Теперь укажем организацию",
+					"start": 1711359255593,
+					"stop": 1711359255703,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ГоловнаяОрганизация\" я выбираю точное значение 'Крон-Ц'",
+					"start": 1711359255805,
+					"stop": 1711359257122,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ГоловнаяОрганизация"
+						},
+						{
+							"name": "Парам2",
+							"value": "Крон-Ц"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Далее нажимаем кнопку изменить ФИО",
+					"start": 1711359257126,
+					"stop": 1711359257126,
+					"status": "broken",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Далее нажимаем кнопку изменить ФИО",
+					"start": 1711359257335,
+					"stop": 1711359257335,
+					"status": "broken",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Далее нажимаем кнопку изменить ФИО",
+					"start": 1711359258322,
+					"stop": 1711359258431,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ИзменитьФИО'",
+					"start": 1711359258550,
+					"stop": 1711359259281,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ИзменитьФИО"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда открылось окно 'Смена ФИО'",
+					"start": 1711359259285,
+					"stop": 1711359259346,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Смена ФИО"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "В поле Фамилия вводим значение",
+					"start": 1711359259351,
+					"stop": 1711359259351,
+					"status": "broken",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "В поле Фамилия вводим значение",
+					"start": 1711359259566,
+					"stop": 1711359259566,
+					"status": "broken",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "В поле Фамилия вводим значение",
+					"start": 1711359259797,
+					"stop": 1711359259797,
+					"status": "broken",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "В поле Фамилия вводим значение",
+					"start": 1711359259994,
+					"stop": 1711359259994,
+					"status": "broken",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "В поле Фамилия вводим значение",
+					"start": 1711359260196,
+					"stop": 1711359260196,
+					"status": "broken",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "В поле Фамилия вводим значение",
+					"start": 1711359261251,
+					"stop": 1711359261361,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'Фамилия' я ввожу текст 'ВА'",
+					"start": 1711359261467,
+					"stop": 1711359262500,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Фамилия"
+						},
+						{
+							"name": "Парам2",
+							"value": "ВА"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Теперь заполняем поле Имя",
+					"start": 1711359262511,
+					"stop": 1711359262511,
+					"status": "broken",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Теперь заполняем поле Имя",
+					"start": 1711359262717,
+					"stop": 1711359262717,
+					"status": "broken",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Теперь заполняем поле Имя",
+					"start": 1711359262921,
+					"stop": 1711359262921,
+					"status": "broken",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Теперь заполняем поле Имя",
+					"start": 1711359263120,
+					"stop": 1711359263120,
+					"status": "broken",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Теперь заполняем поле Имя",
+					"start": 1711359264123,
+					"stop": 1711359264235,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'Имя' я ввожу текст 'Сотрудник'",
+					"start": 1711359264339,
+					"stop": 1711359266103,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Имя"
+						},
+						{
+							"name": "Парам2",
+							"value": "Сотрудник"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "поле отчество",
+					"start": 1711359266114,
+					"stop": 1711359266114,
+					"status": "broken",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "поле отчество",
+					"start": 1711359266343,
+					"stop": 1711359266343,
+					"status": "broken",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "поле отчество",
+					"start": 1711359267339,
+					"stop": 1711359267451,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'Отчество' я ввожу текст '1'",
+					"start": 1711359267556,
+					"stop": 1711359268494,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Отчество"
+						},
+						{
+							"name": "Парам2",
+							"value": "1"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Нажимаем ОК",
+					"start": 1711359268504,
+					"stop": 1711359268504,
+					"status": "broken",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Нажимаем ОК",
+					"start": 1711359268735,
+					"stop": 1711359268735,
+					"status": "broken",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Нажимаем ОК",
+					"start": 1711359269731,
+					"stop": 1711359269841,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ОК'",
+					"start": 1711359269946,
+					"stop": 1711359270846,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОК"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда открылось окно 'Сотрудник (создание) *'",
+					"start": 1711359270854,
+					"stop": 1711359271053,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Сотрудник (создание) *"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Обязательно указываем пол сотрудника",
+					"start": 1711359271056,
+					"stop": 1711359271056,
+					"status": "broken",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Обязательно указываем пол сотрудника",
+					"start": 1711359271265,
+					"stop": 1711359271265,
+					"status": "broken",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Обязательно указываем пол сотрудника",
+					"start": 1711359272438,
+					"stop": 1711359272547,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ФизлицоПол\" я выбираю точное значение 'Мужской'",
+					"start": 1711359272655,
+					"stop": 1711359274578,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ФизлицоПол"
+						},
+						{
+							"name": "Парам2",
+							"value": "Мужской"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Сохраняем данные",
+					"start": 1711359274582,
+					"stop": 1711359274582,
+					"status": "broken",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Сохраняем данные",
+					"start": 1711359274786,
+					"stop": 1711359274786,
+					"status": "broken",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Сохраняем данные",
+					"start": 1711359275749,
+					"stop": 1711359275856,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'КомандаЗаписатьИЗакрыть'",
+					"start": 1711359275960,
+					"stop": 1711359276631,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "КомандаЗаписатьИЗакрыть"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я жду закрытия окна 'Сотрудник (создание) *' в течение 20 секунд",
+					"start": 1711359276634,
+					"stop": 1711359277259,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Сотрудник (создание) *"
+						},
+						{
+							"name": "Парам2",
+							"value": 20
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Сотрудник создан",
+					"start": 1711359277267,
+					"stop": 1711359277267,
+					"status": "broken",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Сотрудник создан",
+					"start": 1711359277500,
+					"stop": 1711359277500,
+					"status": "broken",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Сотрудник создан",
+					"start": 1711359278514,
+					"stop": 1711359278625,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Когда открылось окно 'Сотрудники'",
+					"start": 1711359278728,
+					"stop": 1711359278733,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Сотрудники"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И Я закрываю окно 'Сотрудники'",
+					"start": 1711359278736,
+					"stop": 1711359280377,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Сотрудники"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "01. Создание сотрудника"
+		},
+		{
+			"name": "epic",
+			"value": "Автоинструкция \"Создание сотрудника\""
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "tests"
+		},
+		{
+			"name": "host",
+			"value": "DESKTOP-N8DAO9B"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}
