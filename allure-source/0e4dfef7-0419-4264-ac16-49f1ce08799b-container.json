@@ -1,0 +1,47 @@
+{
+	"uuid": "66b0b327-e62f-430d-9680-808c793e67ac",
+	"name": "Контекст_01. Создание сотрудника",
+	"description": "",
+	"children": [
+		"0e4dfef7-0419-4264-ac16-49f1ce08799b"
+	],
+	"befores": [
+		{
+			"name": "И Я подключаю клиент тестирования \"Этот клиент\" из таблицы клиентов тестирования",
+			"start": 1711363572238,
+			"stop": 1711363572707,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1711363573053,
+			"stop": 1711363573163,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

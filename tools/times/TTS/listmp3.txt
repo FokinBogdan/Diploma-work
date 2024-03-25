@@ -1,0 +1,3 @@
+file 'scen_000_step_029_main_silence_1.mp3'
+file 'scen_000_step_029_main.mp3'
+file 'scen_000_step_029_main_silence_2.mp3'
